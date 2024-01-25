@@ -1,10 +1,11 @@
 [
   {
-    "image": "https://ibb.co/Xp4bDd7",
+    "image": "https://i.ibb.co/0ZXcKWC/javascript.png",
     "contest": "JavaScript CodeChallenge",
     "count": 120,
     "info": "Show off your JavaScript skills in this coding challenge.",
     "winner": "John Doe",
+    "win": "https://i.ibb.co/dD2R69g/rsz-jhon-doe.png",
     "contestFee": 65,
     "prize": 500,
     "submit": "Submit your JavaScript code to participate.",
@@ -12,11 +13,12 @@
     "deadline": "2023-12-15"
   },
   {
-    "image": "https://ibb.co/3S9wNcd",
+    "image": "https://i.ibb.co/KVpYqWh/business.png",
     "contest": "Innovative Business Ideas",
     "count": 80,
     "info": "Present your innovative business ideas and strategies.",
     "winner": "Michael Brown",
+    "win": "https://i.ibb.co/tBwL9t4/rsz-11brown.png",
     "contestFee": 75,
     "prize": 1500,
     "submit": "Submit your business proposal according to the instructions outlined in the contest details.",
@@ -24,11 +26,12 @@
     "deadline": "2023-12-05"
   },
   {
-    "image": "https://ibb.co/MnKsqVd",
+    "image": "https://i.ibb.co/2qRyXtJ/medical.png",
     "contest": "Healthcare Innovations Challenge",
     "count": 60,
     "info": "Contribute to innovative healthcare solutions in this medical research contest.",
     "winner": "Dr. Sarah Miller",
+    "win": "https://i.ibb.co/y63k76q/rsz-2dr-sarah-miller.png",
     "contestFee": 56,
     "prize": 1200,
     "submit": "Submit your healthcare innovations following the guidelines provided in the contest details.",
@@ -36,11 +39,12 @@
     "deadline": "2023-11-25"
   },
   {
-    "image": "https://ibb.co/XX5kZL4",
+    "image": "https://i.ibb.co/nr18sm0/article.png",
     "contest": "Creative Article Writing Marathon",
     "count": 100,
     "info": "Express your thoughts through compelling articles in this writing marathon.",
     "winner": "Emily Turner",
+    "win": "https://i.ibb.co/C8x8fXb/rsz-2emily.png",
     "contestFee": 50,
     "prize": 800,
     "submit": "Submit your articles following the provided writing guidelines.",
@@ -48,11 +52,12 @@
     "deadline": "2023-12-20"
   },
   {
-    "image": "https://ibb.co/tJLnmMw",
+    "image": "https://i.ibb.co/HHhRFDL/game.png",
     "contest": "Gaming Tournament Challenge",
     "count": 150,
     "info": "Compete in a thrilling gaming tournament and showcase your gaming skills.",
     "winner": "GamerX",
+    "win": "https://i.ibb.co/5cKknm8/rsz-gamerx.png",
     "contestFee": 40,
     "prize": 1000,
     "submit": "Participate in the gaming challenge and submit your high scores to win.",
@@ -60,11 +65,12 @@
     "deadline": "2023-12-10"
   },
   {
-    "image": "https://ibb.co/9nHxn0W",
+    "image": "https://i.ibb.co/dB4NBvD/python.png",
     "contest": "Python CodeMaster Challenge",
     "count": 90,
     "info": "Test your Python coding skills in this intense coding contest.",
     "winner": "CodeMaster123",
+    "win": "https://i.ibb.co/mTpgwm3/rsz-python.png",
     "contestFee": 60,
     "prize": 600,
     "submit": "Submit your Python code solutions to prove your coding mastery.",

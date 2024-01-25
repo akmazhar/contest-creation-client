@@ -9,6 +9,14 @@ import Register from './Pages/Register/Register';
 import Login from './Pages/Login/Login';
 import UserProfile from './Pages/UserProfile/UserProfile';
 import AuthProvider from './AuthProvider/AuthProvider';
+import AllContest from './Pages/AllContest/AllContest';
+import Details from './Pages/AllContest/Details';
+import PrivetRoute from './Router/PrivetRoute';
+import CreatorDashboard from './Pages/Layout/CreatorDashboard';
+import UserDashboard from './Pages/Layout/UserDashboard';
+import Dashboard from './Pages/Layout/Dashboard';
+
+
 
 
 
@@ -39,7 +47,27 @@ const router = createBrowserRouter([
     path: "/userProfile",
     element: <UserProfile></UserProfile>
   },
-
+  {
+    path: "/allContest",
+    element: <PrivetRoute><AllContest></AllContest></PrivetRoute>
+  },
+  {
+    path: "/details/:id",
+    element: <PrivetRoute><Details></Details></PrivetRoute>,
+    loader: ({params}) => fetch(`https://contest-creation-server.vercel.app/sixcard/${params.id}`) 
+  },
+  {
+    path: "/Dashboard",
+    element: <PrivetRoute><Dashboard></Dashboard></PrivetRoute>,
+  },
+  {
+    path: "/CreatorDashboard",
+    element: <PrivetRoute><CreatorDashboard></CreatorDashboard></PrivetRoute>,
+  },
+  {
+    path: "/UserDashboard",
+    element: <PrivetRoute><UserDashboard></UserDashboard></PrivetRoute>,
+  },
   ]
   },
 ]);

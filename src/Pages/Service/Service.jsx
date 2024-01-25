@@ -6,7 +6,7 @@ const Service = () => {
     const [service, setService] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/sixcard')
+        fetch('https://contest-creation-server.vercel.app/sixcard')
             .then(res => res.json())
             .then(data => setService(data))
             .catch(error => console.error('Error fetching data: ', error));
@@ -18,7 +18,7 @@ const Service = () => {
         <div>
         
            
-            <div className="ml-96 mt-2 mb-2" >
+            <div className="ml-96 mt-2 mb-2 " >
             <img src="https://i.ibb.co/cXkfdFy/GROUP.png" alt="" />
             </div>
             
